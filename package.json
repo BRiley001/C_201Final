@@ -1,0 +1,24 @@
+{
+  "name": "C_201Final",
+  "version": "1.0.0",
+  "description": "C_201Final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRiley001/C_201Final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BRiley001/C_201Final/issues"
+  },
+  "homepage": "https://github.com/BRiley001/C_201Final#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
