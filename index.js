@@ -29,19 +29,6 @@ app.get("/", function (req, res){
     res.send(html);
 })
 
-app.get("/pokemon", function (req, res) {
-    getData("https://pokeapi.co/api/v2/pokemon/1/", (data) => {
-        // console.log(data.name)
-        let html=`<section id="digi"`
-        html+=`<div>${data.name}</div>`;
-        // console.log(data.sprites.front_default)
-        html += `<img src="${data.sprites.front_default}" />`;
-        html+=`</section>`;
-
-        res.send(html);
-    })
-});
-
 app.get("/yugioh", function (req, res) {
     getData("", (data) => {
         res.send();
