@@ -35,19 +35,6 @@ app.get("/yugioh", function (req, res) {
     })    
 });
 
-
-function displayPoke(data){
-
-}
-
-function displayDigi(data){
-
-}
-
-function dispalyYugi(data){
-
-}
-
 function getData(url, callback) {
     fetch(url).then((Response) => Response.json())
         .then((data) => callback(data));
